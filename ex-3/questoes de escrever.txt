@@ -1,0 +1,8 @@
+1. Um tipo de dados é como definimos a natureza de um objeto na programação e como ele deve se comportar e ser tratado no código.
+Ele serve para representar um objeto e abstrair uma ideia de "categoria".
+2. O programa dará erro ao compilar, pois não é possível fazer uma operação de subtração entre o inteiro 100 e a string "10", já que são tipos diferentes.
+A mensagem de erro do compilador é "invalid operands to binary - (have 'int' and 'char *')" explicita isso.
+4. Tipagem estática é quando definimos o tipo da variável logo na declaração da variável, enquanto tipagem dinâmica é quando não dizemos o tipo da variável na declaração mas o programa interpreta o tipo na execução.
+Python usa tipagem dinâmica. C e C# usam tipagem estática, por exemplo.
+Em geral, linguagens com tipagem estática são mais rápidas pois o tipo já é explicitado e, portanto, as operações já são conhecidas e estabelecidas.
+Por exemplo, a operação de subtração em Python é mais lenta, pois Python tem que fazer verificações de tipo para saber como os objetos devem ser operados, diferente de C, que já tem essas informações previamente.
